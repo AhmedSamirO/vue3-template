@@ -9,6 +9,15 @@
   <router-view/>
 </template>
 
+<script lang="ts">
+import { Vue } from 'vue-class-component';
+import ApiService from './services/api.service';
+
+export default class APP extends Vue {
+
+}
+</script>
+
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
