@@ -1,4 +1,7 @@
 <template>
+  <div class="container  text-center mt-5 mb-5">
+    <h1 class="mt-5 mx-5">{{$t('test')}}</h1>
+  </div>
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
